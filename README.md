@@ -3,9 +3,7 @@
 ## DIN：
 
 论文链接: https://arxiv.org/pdf/1706.06978.pdf
-数据集使用阿里数据集测试模型代码, 数据集链接: https://tianchi.aliyun.com/dataset/dataDetail?dataId=56 
 
-论文链接: https://arxiv.org/pdf/1809.03672.pdf
 数据集使用阿里数据集测试模型代码, 数据集链接: https://tianchi.aliyun.com/dataset/dataDetail?dataId=56 
 
 ### DIN调用方法:
@@ -49,6 +47,12 @@ DIN的输入特征中主要包含三个部分特征: 用户历史行为序列, �
 - target_item_dict:dict:string->Tensor格式,记录target_item部分输入特征的训练数据;
             
 - user_behavior_list:list(string)格式,记录user_behavior部分的所有特征名称。
+
+## DIEN:
+
+论文链接: https://arxiv.org/pdf/1809.03672.pdf
+
+数据集使用阿里数据集测试模型代码, 数据集链接: https://tianchi.aliyun.com/dataset/dataDetail?dataId=56 
 
 ## 代码:
 
